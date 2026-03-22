@@ -11,10 +11,10 @@
 
 **Q1. Quelle commande crée une branche ET se positionne dessus en même temps ?**
 
-a) `git branch ma-branche`
-b) `git checkout ma-branche`
-c) `git checkout -b ma-branche`
-d) `git push origin ma-branche`
+a) `git branch ma-branche`\n
+b) `git checkout ma-branche`\n
+c) `git checkout -b ma-branche`\n
+d) `git push origin ma-branche`\n
 
 ---
 
@@ -211,7 +211,7 @@ const users = [];
 let nextId = 1;
 
 function createUser(name, email) {
-  if (name == null || email == null) {   // ligne 4
+  if (name == null || email == null) {
     return false;
   }
 
@@ -219,7 +219,7 @@ function createUser(name, email) {
     id: nextId,
     name: name,
     email: email,
-    createdAt: Date()                    // ligne 13
+    createdAt: Date()
   };
 
   users.push(user);
@@ -228,7 +228,7 @@ function createUser(name, email) {
 }
 
 function getUserById(id) {
-  for (let i = 0; i <= users.length; i++) {  // ligne 22
+  for (let i = 0; i <= users.length; i++) {
     if (users[i].id === id) {
       return users[i];
     }
