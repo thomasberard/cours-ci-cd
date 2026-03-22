@@ -1,0 +1,28 @@
+{
+  "name": "cours-ci-cd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --ci --reporters=default --reporters=jest-junit",
+    "lint": "eslint src/ tests/",
+    "build": "mkdir -p dist && cp -r src/* dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasberard/cours-ci-cd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/thomasberard/cours-ci-cd/issues"
+  },
+  "homepage": "https://github.com/thomasberard/cours-ci-cd#readme",
+  "devDependencies": {
+    "eslint": "^10.1.0",
+    "jest": "^30.3.0",
+    "jest-junit": "^16.0.0"
+  }
+}
