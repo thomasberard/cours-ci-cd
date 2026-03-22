@@ -24,7 +24,7 @@ pipeline {
     }
 
     post {
-        success { echo '✅ Pipeline réussi !' }
+        success { echo '✅ Pipeline réussi' }
         failure { echo '❌ Pipeline échoué' }
     }
 }
