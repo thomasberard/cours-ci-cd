@@ -3,7 +3,7 @@
 
 ---
 
-## Partie 1 – QCM (20 min | 15 questions)
+## Partie 1 – QCM (15 questions)
 
 *Une seule bonne réponse sauf mention contraire.*
 
@@ -11,10 +11,10 @@
 
 **Q1. Quelle commande crée une branche ET se positionne dessus en même temps ?**
 
-a) `git branch ma-branche`\n
-b) `git checkout ma-branche`\n
-c) `git checkout -b ma-branche`\n
-d) `git push origin ma-branche`\n
+a) `git branch ma-branche`
+b) `git checkout ma-branche`
+c) `git checkout -b ma-branche`
+d) `git push origin ma-branche`
 
 ---
 
@@ -153,7 +153,7 @@ d) Les envoyer par email à l'équipe
 
 ---
 
-## Partie 2 – Questions ouvertes (20 min | 4 questions)
+## Partie 2 – Questions ouvertes (4 questions)
 
 *Réponses courtes attendues — 3 à 5 lignes maximum.*
 
@@ -199,11 +199,11 @@ d) Les envoyer par email à l'équipe
 
 ---
 
-## Partie 3 – Extraits de code à analyser (20 min | 3 exercices)
+## Partie 3 – Extraits de code à analyser (3 exercices)
 
 ---
 
-### Exercice 1 – Trouver les bugs (7 min)
+### Exercice 1 – Trouver les bugs
 
 Ce code contient **3 bugs**. Identifiez-les et expliquez pourquoi c'est un bug.
 ```js
@@ -251,7 +251,7 @@ function getUserById(id) {
 
 ---
 
-### Exercice 2 – Lire un historique Git (7 min)
+### Exercice 2 – Lire un historique Git
 
 Voici un extrait de `git log --oneline` :
 ```
@@ -287,7 +287,7 @@ f1a3b56 →
 
 ---
 
-### Exercice 3 – Lire un Jenkinsfile (6 min)
+### Exercice 3 – Lire un Jenkinsfile
 ```groovy
 pipeline {
     agent any
